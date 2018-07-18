@@ -183,3 +183,61 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 1em;
 }
+.github_icon {
+	height: 10vh;
+	width: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+}
+
+
+//First break point of 725px
+@media (max-width: 726px) {
+	.left_top_nav {
+		margin-left: 10vh;
+	}
+	.right_top_nav{
+
+	}
+	.nav_button_top{
+		height: 10vh;
+		width: 12vw;
+	  font-family: 'Montserrat', sans-serif;
+	  font-size: 1em;
+	}
+		.large_mid_container {
+			height: 100vh;
+			display: block;
+		}
+		.home_right {
+			height: 50vh;
+			display: block;
+			align-items: center;
+			width: 100%;
+		}
+		.home_left {
+			height: 50vh;
+			display: block;
+			align-items: center;
+			width: 100%;
+		}
+		.my_name {
+			line-height: 1vh;
+		}
+		.my_name {
+			height: 24vh;
+			vertical-align: bottom;
+			line-height: 20vh;
+			margin-left: 10vh;
+		}
+		.tiny_line {
+			margin-left: 10vh;
+			line-height: 20vh;
+		}
+		.home_description {
+			margin-left: 10vh;
+		}
+		.bottom_nav_left {
+		margin-left:10vh;
+	}
+}
