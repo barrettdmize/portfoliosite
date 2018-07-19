@@ -131,7 +131,7 @@ body {
 	align-items: flex-start;
 	background-color: #2b2b2b;
 	color: #AAA6AB;
-	height: 25vh;
+	height: 100%;
 }
 .bottom_nav_left {
 	-webkit-order: 0;
@@ -197,7 +197,7 @@ body {
 		margin-left: 10vh;
 	}
 	.right_top_nav{
-
+		font-size: .75em;
 	}
 	.nav_button_top{
 		height: 10vh;
