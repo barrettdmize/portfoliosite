@@ -196,10 +196,11 @@ body {
 //First break point of 725px
 @media (max-width: 726px) {
 	.top_nav {
-		height: 11vh;
+		height: 12vh;
+		margin-left: 8vh;
 	}
 	.left_top_nav {
-		margin-left: 10vh;
+		margin-left: 8vh;
 	}
 	.right_top_nav{
 		font-size: .75em;
@@ -228,22 +229,21 @@ body {
 		}
 		.my_name {
 			line-height: 1vh;
-		}
-		.my_name {
 			height: 24vh;
 			vertical-align: bottom;
 			line-height: 20vh;
-			margin-left: 10vh;
+			margin-left: 6vh;
 		}
 		.tiny_line {
-			margin-left: 10vh;
+			margin-left: 6vh;
 			line-height: 20vh;
 		}
 		.home_description {
-			margin-left: 10vh;
+			margin-left: 6vh;
 		}
 		.bottom_nav_left {
-		margin-left:10vh;
+		margin-left:6vh;
+		width: 30vw;
 		}
 		.nav_button_bottom {
 			width: auto;
@@ -252,7 +252,7 @@ body {
 			position: asolute;
 		  bottom: 0;
 		  width: 100%;
-			height: 25vh;
+			height: 26vh;
 		}
 		//everything below this is the hamburger nav
 		$color-stack:
