@@ -68,7 +68,7 @@ group :development do
   gem 'browser_sync_rails'
 end
 
-gem 'bootstrap-sass', '~>2.3.1.0'
+gem 'bootstrap-sass', '~> 3.3.7'
 
 gem 'rails_12factor'
 gem 'jquery-rails'

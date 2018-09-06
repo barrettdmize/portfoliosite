@@ -10,7 +10,7 @@ body {
 	outline: 0;
 	font-size: 100%;
 	vertical-align: baseline;
-	background: #040406;
+	background-color: black !important;
 	font-family: 'Montserrat', sans-serif;
   word-spacing: .15em;
 }
@@ -67,7 +67,7 @@ body {
 	-ms-flex-item-align: auto;
 	align-self: auto;
 	margin-top: 6vh;
-	margin-right: 10vh;
+	margin-right: 15vh;
 }
 
 .large_mid_container {
@@ -113,6 +113,64 @@ body {
 	color: #8c838b;
   line-height: 2em;
 }
+.about_me {
+	margin-top: 1vh;
+	margin-left: 15vh;
+	flex: 1;
+	color: #8c838b;
+	font-size: 1.5em;
+	margin-right: 15vh;
+	padding-bottom: 1vh;
+}
+.experience_section {
+	margin-top: 1vh;
+	margin-left: 15vh;
+	flex: 1;
+	color: #8c838b;
+	margin-right: 15vh;
+	padding-bottom: 1vh;
+}
+.experience {
+	margin-top: 1vh;
+	flex: 1;
+	color: #8c838b;
+	font-size: 1.5em;
+	margin-right: 15vh;
+	padding-bottom: 1vh;
+}
+.title {
+	height: 3vh;
+	width: 49vw;
+	display: inline-block;
+	flex: 1;
+}
+.date {
+	display: inline-block;
+	height: auto;
+	flex: 1;
+}
+.location {
+
+
+}
+.large_line {
+	margin-top: 1vh;
+	height: 1px;
+	background-color: #DFDDE2;
+	border-radius: 1px;
+	width: 100%;
+	flex: 1;
+}
+.education {
+	margin-top: 1vh;
+	margin-left: 15vh;
+	flex: 1;
+	color: #8c838b;
+	font-size: 1.5em;
+	margin-right: 15vh;
+	padding-bottom: 1vh;
+}
+
 .bottom_nav {
 	display: -ms-flexbox;
 	display: -webkit-flex;
@@ -163,7 +221,7 @@ body {
 	align-self: auto;
 	height: 10vh;
 	margin-top: 6vh;
-	margin-right: 10vh;
+	margin-right: 15vh;
 	text-align: right;
 }
 //button styling
@@ -190,6 +248,9 @@ body {
 	width: 30px;
   font-family: 'Montserrat', sans-serif;
   font-size: 1em;
+}
+.bottom_spacing {
+	padding-bottom: 1em;
 }
 
 
@@ -229,7 +290,7 @@ body {
 		}
 		.my_name {
 			line-height: 1vh;
-			height: 24vh;
+			height: 18vh;
 			vertical-align: bottom;
 			line-height: 20vh;
 			margin-left: 6vh;
@@ -240,6 +301,11 @@ body {
 		}
 		.home_description {
 			margin-left: 6vh;
+			width: 46vh;
+		}
+		.about_me {
+			margin-left: 6vh;
+
 		}
 		.bottom_nav_left {
 		margin-left:6vh;
@@ -256,8 +322,8 @@ body {
 		}
 		//everything below this is the hamburger nav
 		$color-stack:
-	  (group: primary, id: normal, color: #fff),
-	  (group: complement, id: normal, color: #444);
+	  (group: primary, id: normal, color: #000),
+	  (group: complement, id: normal, color: #fff);
 
 	@function color($group, $shade:normal, $transparency:1) {
 	  @each $color in $color-stack {
